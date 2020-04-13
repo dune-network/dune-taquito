@@ -1,4 +1,4 @@
-import { RpcClient } from '@taquito/rpc';
+import { RpcClient } from '@dune-network/rpc';
 import { Signer } from './signer/interface';
 import { NoopSigner } from './signer/noop';
 import { Protocols } from './constants';

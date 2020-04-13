@@ -35,7 +35,7 @@ export {
   MichelsonMapKey,
   MapTypecheckError,
   UnitValue,
-} from '@taquito/michelson-encoder';
+} from '@dune-network/michelson-encoder';
 
 export {
   TezosOperationError,
@@ -222,7 +222,25 @@ export class TezosToolkit {
   }
 }
 
+
+
+
+// renaming for Dune
+
+
+
+/**
+ * @description Facade class that surfaces all of the libraries capability and allow it's configuration
+ */
+export class DuneToolkit extends TezosToolkit {
+}
+
 /**
  * @description Default Tezos toolkit instance
  */
-export const Tezos = new TezosToolkit();
+export const Tezos = new DuneToolkit();
+
+/**
+ * @description Default Tezos toolkit instance
+ */
+export const Dune = Tezos;

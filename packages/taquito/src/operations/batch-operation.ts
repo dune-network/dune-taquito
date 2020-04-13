@@ -1,4 +1,4 @@
-import { OperationContentsAndResult, OperationResultStatusEnum } from '@taquito/rpc';
+import { OperationContentsAndResult, OperationResultStatusEnum } from '@dune-network/rpc';
 import { BATCH_KINDS } from '../batch/rpc-batch-provider';
 import { Context } from '../context';
 import { flattenErrors, flattenOperationResult } from './operation-errors';

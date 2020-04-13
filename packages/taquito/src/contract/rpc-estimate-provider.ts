@@ -1,4 +1,4 @@
-import { PreapplyResponse, RPCRunOperationParam, OpKind } from '@taquito/rpc';
+import { PreapplyResponse, RPCRunOperationParam, OpKind } from '@dune-network/rpc';
 import BigNumber from 'bignumber.js';
 import { OperationEmitter } from '../operations/operation-emitter';
 import {

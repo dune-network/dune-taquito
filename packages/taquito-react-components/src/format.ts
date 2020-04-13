@@ -1,5 +1,5 @@
 import BigNumber from 'bignumber.js';
-import { Tezos } from '@taquito/taquito';
+import { Tezos } from '@dune-network/taquito';
 
 const TZ_DECIMALS = 6;
 const MTZ_DECIMALS = 3;

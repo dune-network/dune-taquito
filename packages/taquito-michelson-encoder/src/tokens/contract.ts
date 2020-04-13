@@ -1,4 +1,4 @@
-import { encodePubKey, validateAddress, ValidationResult } from '@taquito/utils';
+import { encodePubKey, validateAddress, ValidationResult } from '@dune-network/utils';
 import { Token, TokenFactory, TokenValidationError } from './token';
 
 export class ContractValidationError extends TokenValidationError {

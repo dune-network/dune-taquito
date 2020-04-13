@@ -3,7 +3,7 @@ import {
   OperationContentsAndResult,
   OperationResultStatusEnum,
   OperationContentsAndResultReveal,
-} from '@taquito/rpc';
+} from '@dune-network/rpc';
 import { defer, from, ReplaySubject, timer } from 'rxjs';
 import {
   filter,

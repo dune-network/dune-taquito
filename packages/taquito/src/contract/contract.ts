@@ -1,5 +1,5 @@
-import { ParameterSchema, Schema } from '@taquito/michelson-encoder';
-import { EntrypointsResponse, ScriptResponse } from '@taquito/rpc';
+import { ParameterSchema, Schema } from '@dune-network/michelson-encoder';
+import { EntrypointsResponse, ScriptResponse } from '@dune-network/rpc';
 import { ContractProvider } from './interface';
 import { InvalidParameterError } from './errors';
 import { TransferParams } from '../operations/types';

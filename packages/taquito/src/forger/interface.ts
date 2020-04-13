@@ -1,4 +1,4 @@
-import { OperationContents } from '@taquito/rpc';
+import { OperationContents } from '@dune-network/rpc';
 
 export interface ForgeParams {
   branch: string;

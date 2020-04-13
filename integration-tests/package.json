@@ -6,12 +6,12 @@
   },
   "version": "6.2.0-beta.0",
   "dependencies": {
-    "@taquito/http-utils": "^6.2.0-beta.0",
-    "@taquito/local-forging": "^6.2.0-beta.0",
-    "@taquito/remote-signer": "^6.2.0-beta.0",
-    "@taquito/signer": "^6.2.0-beta.0",
-    "@taquito/taquito": "^6.2.0-beta.0",
-    "@taquito/utils": "^6.2.0-beta.0"
+    "@dune-network/http-utils": "^6.2.0-beta.0",
+    "@dune-network/local-forging": "^6.2.0-beta.0",
+    "@dune-network/remote-signer": "^6.2.0-beta.0",
+    "@dune-network/signer": "^6.2.0-beta.0",
+    "@dune-network/taquito": "^6.2.0-beta.0",
+    "@dune-network/utils": "^6.2.0-beta.0"
   },
   "private": true,
   "jest": {

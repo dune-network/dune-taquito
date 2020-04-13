@@ -1,5 +1,5 @@
 import { ForgedBytes } from '../../src/operations/types';
-import { OperationContentsAndResult } from '@taquito/rpc';
+import { OperationContentsAndResult } from '@dune-network/rpc';
 import { TransactionOperation } from '../../src/operations/transaction-operation';
 import { defaultConfig } from '../../src/context';
 import { TransferOperationBuilder, RevealOperationBuilder } from '../helpers';

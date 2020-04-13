@@ -1,4 +1,4 @@
-import { MichelsonV1Expression, MichelsonV1ExpressionExtended, ScriptResponse } from '@taquito/rpc';
+import { MichelsonV1Expression, MichelsonV1ExpressionExtended, ScriptResponse } from '@dune-network/rpc';
 import { BigMapToken } from '../tokens/bigmap';
 import { createToken } from '../tokens/createToken';
 import { OrToken } from '../tokens/or';

@@ -1,5 +1,5 @@
 import { CONFIGS } from "./config";
-import { Protocols } from "@taquito/taquito";
+import { Protocols } from "@dune-network/taquito";
 
 CONFIGS().forEach(({ lib, rpc, setup, createAddress, knownBaker, protocol }) => {
   const Tezos = lib;

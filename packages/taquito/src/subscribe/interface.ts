@@ -1,4 +1,4 @@
-import { OperationEntry } from '@taquito/rpc';
+import { OperationEntry } from '@dune-network/rpc';
 
 export type FilterExpression = {
   or?: ExpressionOrOpFilter[];

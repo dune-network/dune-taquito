@@ -6,7 +6,7 @@ import {
   OpKind,
   RpcClient,
   RPCRunOperationParam,
-} from '@taquito/rpc';
+} from '@dune-network/rpc';
 import { DEFAULT_FEE, DEFAULT_GAS_LIMIT, DEFAULT_STORAGE_LIMIT, Protocols } from '../constants';
 import { Context } from '../context';
 import { Estimate } from '../contract/estimate';

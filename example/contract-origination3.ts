@@ -1,7 +1,7 @@
-import { Tezos } from '@taquito/taquito';
+import { Tezos } from '@dune-network/taquito';
 import { voteInitSample, voteSample } from '../integration-tests/data/vote-contract';
 const provider = 'https://api.tez.ie/rpc/carthagenet';
-import { importKey } from '@taquito/signer';
+import { importKey } from '@dune-network/signer';
 
 async function example() {
   Tezos.setProvider({ rpc: provider } as any);

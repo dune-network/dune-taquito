@@ -82,7 +82,7 @@ New documentation covering how to interact with Smart Contracts using Taquito [h
 ### CDN Bundle
 
 ```html
-<script src="https://unpkg.com/@taquito/taquito@6.1.0-beta.0/dist/taquito.min.js"
+<script src="https://unpkg.com/@dune-network/taquito@6.1.0-beta.0/dist/taquito.min.js"
 crossorigin="anonymous" integrity="sha384-sk4V+57zLUCfkna8z4p1u6CioucJqmeo+QnaiXoFiuE8vdkm7/ae2TNFLbL+Ys02"></script>
 ```
 
@@ -98,7 +98,7 @@ As per our versioning policy, we have now removed support for injecting Athens o
 
 Taquito now supports Local forging of operations. This allows you to forge operations without relying on a Tezos node RPC. This feature is useful if you do not want to rely (trust) a public node, or if you want to forge & sign operations in an environment that is not accessible to the internet for security purposes.
 
-See the `@taquito/local-forging` package for the implementation.
+See the `@dune-network/local-forging` package for the implementation.
 
 Our integration tests for local forging work by forging many test cases using the local forger and the RPC forger endpoint. We then assert that the results from both implementations are identical.
 
@@ -121,7 +121,7 @@ Developers can now use Taquito using a `<script>` tag instead of using a package
 All new releases of Taquito will be published to the [unpkg.com](http://unpkg.com) CDN. We will publish hash's of the CDN assets for every release, and we encourage users to make use of the [Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) options to ensure that you are getting the correct version of Taquito.
 
 ```
-    <script src="https://unpkg.com/@taquito/taquito@6.0.2-beta.0/dist/taquito.min.js"
+    <script src="https://unpkg.com/@dune-network/taquito@6.0.2-beta.0/dist/taquito.min.js"
     crossorigin="anonymous" integrity="sha384-gIjWpwSahQXCejt3IXr83Lxmcfe13gZX97Yp7bpdCMpX/fD0XV3V4hxRHhCVX9+k"></script>
 ```
 

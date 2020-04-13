@@ -17,7 +17,7 @@ import {
   ParamsWithKind,
   isOpWithFee,
 } from '../operations/types';
-import { OpKind } from '@taquito/rpc';
+import { OpKind } from '@dune-network/rpc';
 
 export const BATCH_KINDS = [
   OpKind.ACTIVATION,

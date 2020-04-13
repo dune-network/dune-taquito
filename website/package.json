@@ -1,5 +1,5 @@
 {
-  "name": "@taquito/website",
+  "name": "@dune-network/website",
   "private": true,
   "scripts": {
     "start": "docusaurus start",
@@ -14,7 +14,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
     "@fortawesome/free-solid-svg-icons": "^5.12.0",
     "@fortawesome/react-fontawesome": "^0.1.8",
-    "@taquito/taquito": "^6.0.3-beta.1",
+    "@dune-network/taquito": "^6.0.3-beta.1",
     "classnames": "^2.2.6",
     "react": "^16.10.2",
     "react-dom": "^16.10.2"

@@ -1,5 +1,5 @@
 {
-  "name": "@taquito/utils",
+  "name": "@dune-network/utils",
   "version": "6.2.0-beta.0",
   "description": "converts michelson data and types into convenient JS/TS objects",
   "keywords": [

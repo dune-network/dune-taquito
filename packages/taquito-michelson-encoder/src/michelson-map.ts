@@ -1,4 +1,4 @@
-import { MichelsonV1Expression } from '@taquito/rpc';
+import { MichelsonV1Expression } from '@dune-network/rpc';
 import { Schema } from './schema/storage';
 import stringify from 'fast-json-stable-stringify';
 

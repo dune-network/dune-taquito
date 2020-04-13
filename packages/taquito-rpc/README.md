@@ -1,8 +1,8 @@
-[![pkgsign status](https://us-central1-pkgsign.cloudfunctions.net/pkgsign-badge?name=@taquito/rpc&expectedIdentity=%40jevonearth)](https://github.com/RedpointGames/pkgsign)
+[![pkgsign status](https://us-central1-pkgsign.cloudfunctions.net/pkgsign-badge?name=@dune-network/rpc&expectedIdentity=%40jevonearth)](https://github.com/RedpointGames/pkgsign)
 
 # Taquito RPC package
 
-`@taquito/rpc` is an npm package that provides low level methods, and types to invoke RPC calls from a Nomadic Tezos RPC node.
+`@dune-network/rpc` is an npm package that provides low level methods, and types to invoke RPC calls from a Nomadic Tezos RPC node.
 
 See the top-level project [https://github.com/ecadlabs/taquito](https://github.com/ecadlabs/taquito) for details on reporting issues, contributing and versioning.
 

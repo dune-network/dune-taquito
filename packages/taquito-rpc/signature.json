@@ -113,7 +113,7 @@
       "entry": "packageJson/v1alpha2",
       "value": {
         "packageJson": {
-          "name": "@taquito/rpc",
+          "name": "@dune-network/rpc",
           "version": "6.2.0-beta.0",
           "description": "Provides low level methods, and types to invoke RPC calls from a Nomadic Tezos RPC node",
           "keywords": [
@@ -169,7 +169,7 @@
               "js"
             ],
             "moduleNameMapper": {
-              "^@taquito/http-utils$": "<rootDir>/../taquito-http-utils/src/taquito-http-utils.ts"
+              "^@dune-network/http-utils$": "<rootDir>/../taquito-http-utils/src/taquito-http-utils.ts"
             },
             "coveragePathIgnorePatterns": [
               "/node_modules/",
@@ -180,7 +180,7 @@
             ]
           },
           "dependencies": {
-            "@taquito/http-utils": "^6.2.0-beta.0",
+            "@dune-network/http-utils": "^6.2.0-beta.0",
             "bignumber.js": "^9.0.0",
             "lodash": "^4.17.15"
           },

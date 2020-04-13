@@ -1,4 +1,4 @@
-import { Tezos } from '@taquito/taquito';
+import { Tezos } from '@dune-network/taquito';
 
 
 async function example() {

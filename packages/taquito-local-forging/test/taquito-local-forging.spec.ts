@@ -1,4 +1,4 @@
-import { TezosToolkit } from '@taquito/taquito';
+import { TezosToolkit } from '@dune-network/taquito';
 import { opMappingReverse } from '../src/constants';
 import { localForger } from '../src/taquito-local-forging';
 import { genericCode, genericStorage } from './data/generic_contract';

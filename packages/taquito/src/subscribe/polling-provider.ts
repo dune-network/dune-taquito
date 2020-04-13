@@ -1,4 +1,4 @@
-import { BlockResponse, OperationEntry } from '@taquito/rpc';
+import { BlockResponse, OperationEntry } from '@dune-network/rpc';
 import { from, Observable, ObservableInput, timer } from 'rxjs';
 import {
   concatMap,

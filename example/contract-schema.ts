@@ -1,5 +1,5 @@
-import { Tezos } from '@taquito/taquito';
-import { InMemorySigner } from '@taquito/signer';
+import { Tezos } from '@dune-network/taquito';
+import { InMemorySigner } from '@dune-network/signer';
 
 
 async function example() {

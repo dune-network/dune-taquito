@@ -1,5 +1,5 @@
-import { Tezos } from '@taquito/taquito';
-import { importKey } from '@taquito/signer';
+import { Tezos } from '@dune-network/taquito';
+import { importKey } from '@dune-network/signer';
 
 const provider = 'https://api.tez.ie/rpc/carthagenet';
 

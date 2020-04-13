@@ -1,4 +1,4 @@
-import { Schema } from '@taquito/michelson-encoder';
+import { Schema } from '@dune-network/michelson-encoder';
 import { DelegateOperation } from '../operations/delegate-operation';
 import { OriginationOperation } from '../operations/origination-operation';
 import { TransactionOperation } from '../operations/transaction-operation';

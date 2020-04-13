@@ -1,9 +1,9 @@
-import { localForger } from '@taquito/local-forging';
-import { CompositeForger, RpcForger, TezosToolkit, Protocols } from '@taquito/taquito';
-import { RemoteSigner } from '@taquito/remote-signer';
-import { HttpBackend } from '@taquito/http-utils'
-import { b58cencode, Prefix, prefix } from '@taquito/utils';
-import { importKey, InMemorySigner } from '@taquito/signer'
+import { localForger } from '@dune-network/local-forging';
+import { CompositeForger, RpcForger, TezosToolkit, Protocols } from '@dune-network/taquito';
+import { RemoteSigner } from '@dune-network/remote-signer';
+import { HttpBackend } from '@dune-network/http-utils'
+import { b58cencode, Prefix, prefix } from '@dune-network/utils';
+import { importKey, InMemorySigner } from '@dune-network/signer'
 import fs from 'fs';
 
 const nodeCrypto = require('crypto');

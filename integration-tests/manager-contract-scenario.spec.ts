@@ -1,6 +1,6 @@
 import { CONFIGS } from "./config";
 import { managerCode } from "./data/manager_code";
-import { MANAGER_LAMBDA } from "@taquito/taquito";
+import { MANAGER_LAMBDA } from "@dune-network/taquito";
 
 CONFIGS().forEach(({ lib, rpc, setup, knownBaker, knownContract }) => {
   const Tezos = lib;

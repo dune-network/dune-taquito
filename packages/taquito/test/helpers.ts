@@ -5,7 +5,7 @@ import {
   OperationContentsAndResultReveal,
   OperationContentsAndResultOrigination,
   OperationContentsAndResultDelegation,
-} from '@taquito/rpc';
+} from '@dune-network/rpc';
 
 const defaultTransferData = {
   kind: OpKind.TRANSACTION as OpKind.TRANSACTION,

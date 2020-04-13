@@ -1,5 +1,5 @@
 import { ForgedBytes } from '../../src/operations/types';
-import { OperationContentsAndResult } from '@taquito/rpc';
+import { OperationContentsAndResult } from '@dune-network/rpc';
 import { BatchOperation } from '../../src/operations/batch-operation';
 import { defaultConfig } from '../../src/context';
 import {

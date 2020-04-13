@@ -12,7 +12,7 @@ module.exports = {
     '**/*.spec.ts',
     "website/**/*"
   ],
-  lernaExclude: ['@taquito/website'],
+  lernaExclude: ['@dune-network/website'],
   name: 'Taquito',
   excludePrivate: true
 };

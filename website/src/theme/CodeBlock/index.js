@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import { TezosToolkit } from '@taquito/taquito';
+import { TezosToolkit } from '@dune-network/taquito';
 import Playground from '@theme/Playground';
 import classnames from 'classnames';
 import Clipboard from 'clipboard';

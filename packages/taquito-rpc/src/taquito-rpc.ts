@@ -1,4 +1,4 @@
-import { HttpBackend } from '@taquito/http-utils';
+import { HttpBackend } from '@dune-network/http-utils';
 import BigNumber from 'bignumber.js';
 import {
   BakingRightsQueryArguments,

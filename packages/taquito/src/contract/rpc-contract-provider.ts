@@ -1,6 +1,6 @@
-import { Schema } from '@taquito/michelson-encoder';
-import { ScriptResponse } from '@taquito/rpc';
-import { encodeExpr } from '@taquito/utils';
+import { Schema } from '@dune-network/michelson-encoder';
+import { ScriptResponse } from '@dune-network/rpc';
+import { encodeExpr } from '@dune-network/utils';
 import { Context } from '../context';
 import { DelegateOperation } from '../operations/delegate-operation';
 import { OperationEmitter } from '../operations/operation-emitter';

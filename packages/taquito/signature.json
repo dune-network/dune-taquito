@@ -535,7 +535,7 @@
       "entry": "packageJson/v1alpha2",
       "value": {
         "packageJson": {
-          "name": "@taquito/taquito",
+          "name": "@dune-network/taquito",
           "version": "6.2.0-beta.0",
           "description": "High level functionality that builds upon the other packages in the Tezos Typescript Library Suite.",
           "keywords": [
@@ -597,10 +597,10 @@
               "js"
             ],
             "moduleNameMapper": {
-              "^@taquito/rpc$": "<rootDir>/../taquito-rpc/src/taquito-rpc.ts",
-              "^@taquito/michelson-encoder$": "<rootDir>/../taquito-michelson-encoder/src/taquito-michelson-encoder.ts",
-              "^@taquito/http-utils$": "<rootDir>/../taquito-http-utils/src/taquito-http-utils.ts",
-              "^@taquito/utils$": "<rootDir>/../taquito-utils/src/taquito-utils.ts"
+              "^@dune-network/rpc$": "<rootDir>/../taquito-rpc/src/taquito-rpc.ts",
+              "^@dune-network/michelson-encoder$": "<rootDir>/../taquito-michelson-encoder/src/taquito-michelson-encoder.ts",
+              "^@dune-network/http-utils$": "<rootDir>/../taquito-http-utils/src/taquito-http-utils.ts",
+              "^@dune-network/utils$": "<rootDir>/../taquito-utils/src/taquito-utils.ts"
             },
             "coveragePathIgnorePatterns": [
               "/node_modules/",
@@ -611,11 +611,11 @@
             ]
           },
           "dependencies": {
-            "@taquito/http-utils": "^6.2.0-beta.0",
-            "@taquito/michelson-encoder": "^6.2.0-beta.0",
-            "@taquito/rpc": "^6.2.0-beta.0",
-            "@taquito/signer": "^6.2.0-beta.0",
-            "@taquito/utils": "^6.2.0-beta.0",
+            "@dune-network/http-utils": "^6.2.0-beta.0",
+            "@dune-network/michelson-encoder": "^6.2.0-beta.0",
+            "@dune-network/rpc": "^6.2.0-beta.0",
+            "@dune-network/signer": "^6.2.0-beta.0",
+            "@dune-network/utils": "^6.2.0-beta.0",
             "bignumber.js": "^9.0.0",
             "rxjs": "^6.5.3"
           },

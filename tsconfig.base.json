@@ -22,25 +22,25 @@
     "baseUrl": "packages",
     "downlevelIteration": true,
     "paths": {
-      "@taquito/rpc": [
+      "@dune-network/rpc": [
         "taquito-rpc/src/taquito-rpc.ts"
       ],
-      "@taquito/michelson-encoder": [
+      "@dune-network/michelson-encoder": [
         "taquito-michelson-encoder/src/taquito-michelson-encoder.ts"
       ],
-      "@taquito/utils": [
+      "@dune-network/utils": [
         "taquito-utils/src/taquito-utils.ts"
       ],
-      "@taquito/taquito": [
+      "@dune-network/taquito": [
         "taquito/src/taquito.ts"
       ],
-      "@taquito/http-utils": [
+      "@dune-network/http-utils": [
         "taquito-http-utils/src/taquito-http-utils.ts"
       ],
-      "@taquito/signer": [
+      "@dune-network/signer": [
         "taquito-signer/src/taquito-signer.ts"
       ],
-      "@taquito/local-forging": [
+      "@dune-network/local-forging": [
         "taquito-local-forging/src/taquito-local-forging.ts"
       ]
     }

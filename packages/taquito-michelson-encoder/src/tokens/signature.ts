@@ -1,5 +1,5 @@
 import { Token, TokenFactory, TokenValidationError } from './token';
-import { validateSignature, ValidationResult } from '@taquito/utils';
+import { validateSignature, ValidationResult } from '@dune-network/utils';
 
 export class SignatureValidationError extends TokenValidationError {
   name: string = 'SignatureValidationError';

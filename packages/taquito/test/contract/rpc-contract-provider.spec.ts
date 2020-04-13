@@ -1,5 +1,5 @@
 import { RpcContractProvider } from '../../src/contract/rpc-contract-provider';
-import { HttpResponseError, STATUS_CODE } from '@taquito/http-utils';
+import { HttpResponseError, STATUS_CODE } from '@dune-network/http-utils';
 import {
   sample,
   sampleStorage,
@@ -23,7 +23,7 @@ import {
 } from '../../src/constants';
 import { InvalidDelegationSource } from '../../src/contract/errors';
 import { preapplyResultFrom } from './helper';
-import { MichelsonMap, Schema } from '@taquito/michelson-encoder';
+import { MichelsonMap, Schema } from '@dune-network/michelson-encoder';
 import { BigMapAbstraction } from '../../src/contract/big-map';
 
 /**

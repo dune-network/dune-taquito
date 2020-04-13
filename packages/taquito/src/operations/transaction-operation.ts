@@ -1,4 +1,4 @@
-import { OperationContentsAndResult, OperationContentsAndResultTransaction } from '@taquito/rpc';
+import { OperationContentsAndResult, OperationContentsAndResultTransaction } from '@dune-network/rpc';
 import BigNumber from 'bignumber.js';
 import { Context } from '../context';
 import { flattenErrors, flattenOperationResult } from './operation-errors';

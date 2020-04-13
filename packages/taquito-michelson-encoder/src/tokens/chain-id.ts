@@ -1,5 +1,5 @@
 import { Token, TokenFactory, ComparableToken, TokenValidationError } from './token';
-import { validateChain, ValidationResult } from '@taquito/utils';
+import { validateChain, ValidationResult } from '@dune-network/utils';
 
 export class ChainIDValidationError extends TokenValidationError {
   name: string = 'ChainIDValidationError';

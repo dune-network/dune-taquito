@@ -1,8 +1,8 @@
-[![pkgsign status](https://us-central1-pkgsign.cloudfunctions.net/pkgsign-badge?name=@taquito/react-components&expectedIdentity=%40jevonearth)](https://github.com/RedpointGames/pkgsign)
+[![pkgsign status](https://us-central1-pkgsign.cloudfunctions.net/pkgsign-badge?name=@dune-network/react-components&expectedIdentity=%40jevonearth)](https://github.com/RedpointGames/pkgsign)
 
 # Taquito React Components package
 
-`@taquito/react-components` contains a set of React Components that implement common use cases for data retrieved from the Tezos blockchain.
+`@dune-network/react-components` contains a set of React Components that implement common use cases for data retrieved from the Tezos blockchain.
 
 See the top-level project [https://github.com/ecadlabs/taquito](https://github.com/ecadlabs/taquito) for details on reporting issues, contributing and versioning.
 

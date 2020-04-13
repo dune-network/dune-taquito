@@ -2,7 +2,7 @@ import {
   OperationContentsAndResult,
   OperationContentsAndResultOrigination,
   OpKind,
-} from '@taquito/rpc';
+} from '@dune-network/rpc';
 import { Context } from '../context';
 import { RpcContractProvider } from '../contract/rpc-contract-provider';
 import { Operation } from './operations';

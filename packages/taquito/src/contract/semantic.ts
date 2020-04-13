@@ -1,8 +1,8 @@
-import { Schema, Semantic } from '@taquito/michelson-encoder';
+import { Schema, Semantic } from '@dune-network/michelson-encoder';
 import { BigMapAbstraction } from './big-map';
 import { ContractProvider } from './interface';
 import BigNumber from 'bignumber.js';
-import { MichelsonV1Expression } from '@taquito/rpc';
+import { MichelsonV1Expression } from '@dune-network/rpc';
 
 // Override the default michelson encoder semantic to provide richer abstraction over storage properties
 export const smartContractAbstractionSemantic: (p: ContractProvider) => Semantic = (

@@ -1,7 +1,7 @@
-import { Tezos } from '@taquito/taquito';
+import { Tezos } from '@dune-network/taquito';
 import { ligoSample } from '../integration-tests/data/ligo-simple-contract';
 
-import { importKey } from '@taquito/signer';
+import { importKey } from '@dune-network/signer';
 const provider = 'https://api.tez.ie/rpc/carthagenet';
 
 async function example() {

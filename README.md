@@ -43,22 +43,22 @@ Taquito comes complete with:
 
 `taquito` is organized as a mono repository from which several npm packages are built and published. Packages are in the `packages/` directory, each one with its a README file.
 
-We publish gpg signed packages to npmjs.org under the `@taquito` handle.
+We publish gpg signed packages to npmjs.org under the `@dune-network` handle.
 
 | High Level Packages                                            | Responsibility                                               |
 | -------------------------------------------------------------- | ------------------------------------------------------------ |
-| [@taquito/taquito](packages/taquito)                           | Regroup every other library and provide higher level utility |
-| [@taquito/react-components](packages/taquito-react-components) | React components that implement some common use cases        |
+| [@dune-network/taquito](packages/taquito)                           | Regroup every other library and provide higher level utility |
+| [@dune-network/react-components](packages/taquito-react-components) | React components that implement some common use cases        |
 
 | Low Level Packages                                               | Responsibility                                                |
 | ---------------------------------------------------------------- | ------------------------------------------------------------- |
-| [@taquito/rpc](packages/taquito-rpc)                             | RPC client library, wrap every rpc endpoint in its own method |
-| [@taquito/local-forging](packages/taquito-local-forging)         | Local forging of Tezos operations                             |
-| [@taquito/michelson-encoder](packages/taquito-michelson-encoder) | Encode/Decode storage and parameters to/from michelson format |
-| [@taquito/signer](packages/taquito-signer)                       | Provide necessary function to sign using tezos keys           |
-| [@taquito/remote-signer](packages/taquito-remote-signer)         | Provide necessary function to sign using remote signer API    |
-| [@taquito/tezbridge-signer](packages/taquito-tezbridge-signer)   | Provide necessary function to sign using TezBridge            |
-| [@taquito/utils](packages/taquito-utils)                         | Provide different encoding and decoding utilities             |
+| [@dune-network/rpc](packages/taquito-rpc)                             | RPC client library, wrap every rpc endpoint in its own method |
+| [@dune-network/local-forging](packages/taquito-local-forging)         | Local forging of Tezos operations                             |
+| [@dune-network/michelson-encoder](packages/taquito-michelson-encoder) | Encode/Decode storage and parameters to/from michelson format |
+| [@dune-network/signer](packages/taquito-signer)                       | Provide necessary function to sign using tezos keys           |
+| [@dune-network/remote-signer](packages/taquito-remote-signer)         | Provide necessary function to sign using remote signer API    |
+| [@dune-network/tezbridge-signer](packages/taquito-tezbridge-signer)   | Provide necessary function to sign using TezBridge            |
+| [@dune-network/utils](packages/taquito-utils)                         | Provide different encoding and decoding utilities             |
 
 ## API Documentation
 

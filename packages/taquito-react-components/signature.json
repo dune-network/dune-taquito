@@ -124,7 +124,7 @@
       "entry": "packageJson/v1alpha2",
       "value": {
         "packageJson": {
-          "name": "@taquito/react-components",
+          "name": "@dune-network/react-components",
           "version": "6.2.0-beta.0",
           "description": "React Components that implement common use cases for data retrieved from the Tezos blockchain",
           "keywords": [
@@ -168,8 +168,8 @@
             ]
           },
           "dependencies": {
-            "@taquito/rpc": "^6.2.0-beta.0",
-            "@taquito/taquito": "^6.2.0-beta.0",
+            "@dune-network/rpc": "^6.2.0-beta.0",
+            "@dune-network/taquito": "^6.2.0-beta.0",
             "@types/react": "^16.8.24",
             "bignumber.js": "^9.0.0",
             "react": "^16.8.6",

@@ -1,13 +1,13 @@
-[![pkgsign status](https://us-central1-pkgsign.cloudfunctions.net/pkgsign-badge?name=@taquito/taquito&expectedIdentity=%40jevonearth)](https://github.com/RedpointGames/pkgsign)
+[![pkgsign status](https://us-central1-pkgsign.cloudfunctions.net/pkgsign-badge?name=@dune-network/taquito&expectedIdentity=%40jevonearth)](https://github.com/RedpointGames/pkgsign)
 
 # Taquito high level functions
 
-The `@taquito/taquito` package contains higher level functionality that builds upon the other packages in the Tezos Typescript Library Suite.
+The `@dune-network/taquito` package contains higher level functionality that builds upon the other packages in the Tezos Typescript Library Suite.
 
 ## CDN Bundle
 
 ```html
-<script src="https://unpkg.com/@taquito/taquito@6.2.0-beta.0/dist/taquito.min.js"
+<script src="https://unpkg.com/@dune-network/taquito@6.2.0-beta.0/dist/taquito.min.js"
 crossorigin="anonymous" integrity="sha384-SUxG2eh2Gc/RYVu1XPqzlxtH37BoCVQzEKoQQ9X1yd1gm6rUIDv6fVmIb9ccKWqv"></script>
 ```
 

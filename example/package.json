@@ -1,5 +1,5 @@
 {
-  "name": "@taquito/example",
+  "name": "@dune-network/example",
   "private": true,
   "version": "6.2.0-beta.0",
   "scripts": {
@@ -12,8 +12,8 @@
     "example:streamer": "node -r ts-node/register --preserve-symlinks example-streamer.ts"
   },
   "dependencies": {
-    "@taquito/signer": "^6.2.0-beta.0",
-    "@taquito/taquito": "^6.2.0-beta.0"
+    "@dune-network/signer": "^6.2.0-beta.0",
+    "@dune-network/taquito": "^6.2.0-beta.0"
   },
   "devDependencies": {
     "ts-node": "^8.3.0"

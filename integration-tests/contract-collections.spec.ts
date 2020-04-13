@@ -1,5 +1,5 @@
 import { CONFIGS } from "./config";
-import { MichelsonMap } from "@taquito/taquito";
+import { MichelsonMap } from "@dune-network/taquito";
 import { collection_code } from "./data/collection_contract";
 
 CONFIGS().forEach(({ lib, rpc, setup }) => {

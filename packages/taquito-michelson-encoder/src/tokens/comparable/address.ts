@@ -1,5 +1,5 @@
 import { Token, TokenFactory, ComparableToken, TokenValidationError } from '../token';
-import { b58decode, encodePubKey, validateAddress, ValidationResult } from '@taquito/utils';
+import { b58decode, encodePubKey, validateAddress, ValidationResult } from '@dune-network/utils';
 
 export class AddressValidationError extends TokenValidationError {
   name: string = 'AddressValidationError';

@@ -13,8 +13,8 @@ This signer implementation is meant to be used for development and not for produ
 
 ```js
 
-import { InMemorySigner } from '@taquito/signer'
-import { Tezos } from '@taquito/taquito'
+import { InMemorySigner } from '@dune-network/signer'
+import { Tezos } from '@dune-network/taquito'
 
 Tezos.setProvider({signer: new InMemorySigner('you_private_key')})
 ```

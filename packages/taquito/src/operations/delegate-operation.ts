@@ -1,4 +1,4 @@
-import { OperationContentsAndResult, OperationContentsAndResultDelegation } from '@taquito/rpc';
+import { OperationContentsAndResult, OperationContentsAndResultDelegation } from '@dune-network/rpc';
 import { Context } from '../context';
 import { Operation } from './operations';
 import {

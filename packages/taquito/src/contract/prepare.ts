@@ -8,10 +8,10 @@ import {
   RegisterDelegateParams,
 } from '../operations/types';
 import { DEFAULT_FEE, DEFAULT_GAS_LIMIT, DEFAULT_STORAGE_LIMIT } from '../constants';
-import { ml2mic, sexp2mic } from '@taquito/utils';
-import { Schema } from '@taquito/michelson-encoder';
+import { ml2mic, sexp2mic } from '@dune-network/utils';
+import { Schema } from '@dune-network/michelson-encoder';
 import { format } from '../format';
-import { OpKind } from '@taquito/rpc';
+import { OpKind } from '@dune-network/rpc';
 
 export const createOriginationOperation = async ({
   code,

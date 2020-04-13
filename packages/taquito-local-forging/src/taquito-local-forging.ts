@@ -1,4 +1,4 @@
-import { ForgeParams, Forger } from '@taquito/taquito';
+import { ForgeParams, Forger } from '@dune-network/taquito';
 import { CODEC } from './constants';
 import { decoders } from './decoder';
 import { encoders } from './encoder';

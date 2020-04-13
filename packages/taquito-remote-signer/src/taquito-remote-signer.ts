@@ -1,4 +1,4 @@
-import { HttpBackend, HttpResponseError, STATUS_CODE } from '@taquito/http-utils';
+import { HttpBackend, HttpResponseError, STATUS_CODE } from '@dune-network/http-utils';
 import {
   b58cdecode,
   b58cencode,
@@ -7,10 +7,10 @@ import {
   isValidPrefix,
   mergebuf,
   prefix,
-} from '@taquito/utils';
+} from '@dune-network/utils';
 import toBuffer from 'typedarray-to-buffer';
 import { BadSigningDataError, KeyNotFoundError, OperationNotAuthorizedError } from './errors';
-import { Signer } from '@taquito/taquito';
+import { Signer } from '@dune-network/taquito';
 interface PublicKeyResponse {
   public_key: string;
 }

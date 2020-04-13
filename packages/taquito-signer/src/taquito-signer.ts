@@ -1,5 +1,5 @@
 import sodium from 'libsodium-wrappers';
-import { hex2buf, mergebuf, b58cencode, prefix } from '@taquito/utils';
+import { hex2buf, mergebuf, b58cencode, prefix } from '@dune-network/utils';
 import toBuffer from 'typedarray-to-buffer';
 import { Tz1 } from './ed-key';
 import { Tz2, ECKey, Tz3 } from './ec-key';

@@ -10,25 +10,25 @@ author: Simon Boissonneault-Robert
 The following instructions assume you have a project already created, and you have `npm` installed and operable.
 
 ```sh
-npm install @taquito/taquito
+npm install @dune-network/taquito
 ```
 
 ## Import the library in your project
 
 You can access Tezos Toolkit in one of two ways.
 
-### Import `Tezos` (a singleton object) from `@taquito/taquito`
+### Import `Tezos` (a singleton object) from `@dune-network/taquito`
 
 ```js
-import { Tezos } from '@taquito/taquito';
+import { Tezos } from '@dune-network/taquito';
 ```
 
-### Import `TezosToolkit` from `@taquito/taquito` and instantiate it
+### Import `TezosToolkit` from `@dune-network/taquito` and instantiate it
 
 This approach is only required if you need to instantiate more than one toolkit.
 
 ```js
-import { TezosToolkit } from '@taquito/taquito';
+import { TezosToolkit } from '@dune-network/taquito';
 
 const tezos = new TezosToolkit();
 ```
@@ -38,7 +38,7 @@ const tezos = new TezosToolkit();
 ### Changing the underlying rpc
 
 ```js
-import { Tezos } from '@taquito/taquito';
+import { Tezos } from '@dune-network/taquito';
 
 Tezos.setProvider({ rpc: 'your_rpc' });
 ```
@@ -46,8 +46,8 @@ Tezos.setProvider({ rpc: 'your_rpc' });
 ### Changing the underlying signer
 
 ```js
-import { Tezos } from '@taquito/taquito';
-import { TezBridgeSigner } from '@taquito/tezbridge-signer';
+import { Tezos } from '@dune-network/taquito';
+import { TezBridgeSigner } from '@dune-network/tezbridge-signer';
 
 Tezos.setProvider({ signer: new TezBridgeSigner() });
 ```

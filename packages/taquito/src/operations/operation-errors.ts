@@ -2,7 +2,7 @@ import {
   MichelsonV1ExpressionBase,
   PreapplyResponse,
   TezosGenericOperationError,
-} from '@taquito/rpc';
+} from '@dune-network/rpc';
 
 export interface TezosOperationErrorWithMessage extends TezosGenericOperationError {
   with: MichelsonV1ExpressionBase;

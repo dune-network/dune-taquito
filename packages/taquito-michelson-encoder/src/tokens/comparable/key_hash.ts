@@ -1,5 +1,5 @@
 import { Token, TokenFactory, ComparableToken, TokenValidationError } from '../token';
-import { encodeKeyHash, validateKeyHash, ValidationResult } from '@taquito/utils';
+import { encodeKeyHash, validateKeyHash, ValidationResult } from '@dune-network/utils';
 
 export class KeyHashValidationError extends TokenValidationError {
   name: string = 'KeyHashValidationError';

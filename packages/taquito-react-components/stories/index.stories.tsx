@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 import { Balance } from '../src/balance';
 
 import { withKnobs, text, select } from '@storybook/addon-knobs';
-import { TezosToolkit } from '@taquito/taquito';
+import { TezosToolkit } from '@dune-network/taquito';
 import { TezosContext } from '../src/tezos-context';
 
 const stories = storiesOf('Balance component', module);

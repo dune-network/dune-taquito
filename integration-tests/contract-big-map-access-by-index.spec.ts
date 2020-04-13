@@ -1,6 +1,6 @@
 import { CONFIGS } from "./config";
 import { tokenCode, tokenInit } from "./data/tokens";
-import { MichelsonMap } from "@taquito/taquito";
+import { MichelsonMap } from "@dune-network/taquito";
 
 CONFIGS().forEach(({ lib, rpc, setup, knownBigMapContract }) => {
   const Tezos = lib;

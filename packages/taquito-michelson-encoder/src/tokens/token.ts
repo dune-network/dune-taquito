@@ -1,4 +1,4 @@
-import { MichelsonV1Expression } from '@taquito/rpc';
+import { MichelsonV1Expression } from '@dune-network/rpc';
 import { MichelsonMapKey } from '../michelson-map';
 
 export abstract class TokenValidationError implements Error {

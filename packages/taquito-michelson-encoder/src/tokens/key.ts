@@ -1,5 +1,5 @@
 import { Token, TokenFactory, TokenValidationError } from './token';
-import { encodeKey, validatePublicKey, ValidationResult } from '@taquito/utils';
+import { encodeKey, validatePublicKey, ValidationResult } from '@dune-network/utils';
 
 export class KeyValidationError extends TokenValidationError {
   name: string = 'KeyValidationError';

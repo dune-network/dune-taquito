@@ -1,5 +1,5 @@
 import { CONFIGS } from "./config";
-import { MichelsonMap } from "@taquito/taquito";
+import { MichelsonMap } from "@dune-network/taquito";
 import { tokenBigmapCode } from "./data/token_bigmap";
 
 CONFIGS().forEach(({ lib, rpc, setup }) => {

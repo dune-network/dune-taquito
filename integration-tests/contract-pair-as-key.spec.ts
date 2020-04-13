@@ -1,5 +1,5 @@
 import { CONFIGS } from "./config";
-import { Protocols, MichelsonMap } from "@taquito/taquito";
+import { Protocols, MichelsonMap } from "@dune-network/taquito";
 import { storageContractWithPairAsKey } from "./data/storage-contract-with-pair-as-key";
 import { mapWithPairAsKeyCode, mapWithPairAsKeyStorage } from "./data/bigmap_with_pair_as_key";
 

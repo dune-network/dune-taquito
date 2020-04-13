@@ -3,9 +3,9 @@ import {
   InternalOperationResultKindEnum,
   OpKind,
   TransactionOperationParameter,
-} from '@taquito/rpc';
+} from '@dune-network/rpc';
 
-export { OpKind } from '@taquito/rpc';
+export { OpKind } from '@dune-network/rpc';
 
 export type withKind<T, K extends OpKind> = T & { kind: K };
 

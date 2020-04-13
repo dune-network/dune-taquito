@@ -1,4 +1,4 @@
-import { b58cdecode, b58cencode, buf2hex, prefix, isValidPrefix } from '@taquito/utils';
+import { b58cdecode, b58cencode, buf2hex, prefix, isValidPrefix } from '@dune-network/utils';
 import toBuffer from 'typedarray-to-buffer';
 
 declare var tezbridge: any;
