@@ -1,5 +1,5 @@
-import { RpcClient } from '@taquito/rpc';
-import { importKey } from '@taquito/signer';
+import { RpcClient } from '@dune-network/rpc';
+import { importKey } from '@dune-network/signer';
 import { Protocols } from './constants';
 import { Context, Config, TaquitoProvider } from './context';
 import { ContractProvider, EstimationProvider } from './contract/interface';

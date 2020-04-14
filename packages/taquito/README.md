@@ -7,8 +7,8 @@ The `@dune-network/taquito` package contains higher level functionality that bui
 ## CDN Bundle
 
 ```html
-<script src="https://unpkg.com/@dune-network/taquito@6.2.0-beta.0/dist/taquito.min.js"
-crossorigin="anonymous" integrity="sha384-SUxG2eh2Gc/RYVu1XPqzlxtH37BoCVQzEKoQQ9X1yd1gm6rUIDv6fVmIb9ccKWqv"></script>
+<script src="https://unpkg.com/@dune-network/taquito@6.2.1-beta.0/dist/taquito.min.js"
+crossorigin="anonymous" integrity="sha384-ghFEyy5gbxtBTHIY+3uk31xbBjG/Im5UN3E1go5lZ4NfCG3DjXQ32USzwGBKL5LR"></script>
 ```
 
 ## API Documentation
