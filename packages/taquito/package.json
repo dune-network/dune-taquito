@@ -1,6 +1,6 @@
 {
   "name": "@dune-network/taquito",
-  "version": "6.2.1-beta.2",
+  "version": "6.2.1-beta.3",
   "description": "High level functionality that builds upon the other packages in the Tezos Typescript Library Suite.",
   "keywords": [
     "tezos",
@@ -75,11 +75,11 @@
     ]
   },
   "dependencies": {
-    "@dune-network/http-utils": "^6.2.1-beta.2",
-    "@dune-network/michelson-encoder": "^6.2.1-beta.2",
-    "@dune-network/rpc": "^6.2.1-beta.2",
-    "@dune-network/signer": "^6.2.1-beta.2",
-    "@dune-network/utils": "^6.2.1-beta.2",
+    "@dune-network/http-utils": "^6.2.1-beta.3",
+    "@dune-network/michelson-encoder": "^6.2.1-beta.3",
+    "@dune-network/rpc": "^6.2.1-beta.3",
+    "@dune-network/signer": "^6.2.1-beta.3",
+    "@dune-network/utils": "^6.2.1-beta.3",
     "bignumber.js": "^9.0.0",
     "rxjs": "^6.5.3"
   },

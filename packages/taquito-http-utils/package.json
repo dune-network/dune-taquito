@@ -1,6 +1,6 @@
 {
   "name": "@dune-network/http-utils",
-  "version": "6.2.1-beta.2",
+  "version": "6.2.1-beta.3",
   "description": "",
   "keywords": [],
   "main": "dist/taquito-http-utils.umd.js",
