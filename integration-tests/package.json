@@ -4,14 +4,14 @@
     "test:faucet": "RUN_WITH_FAUCET=true jest --runInBand",
     "test": "jest"
   },
-  "version": "6.2.1-beta.1",
+  "version": "6.2.1-beta.2",
   "dependencies": {
-    "@dune-network/http-utils": "^6.2.1-beta.0",
-    "@dune-network/local-forging": "^6.2.1-beta.1",
-    "@dune-network/remote-signer": "^6.2.1-beta.1",
-    "@dune-network/signer": "^6.2.1-beta.0",
-    "@dune-network/taquito": "^6.2.1-beta.1",
-    "@dune-network/utils": "^6.2.1-beta.0"
+    "@dune-network/http-utils": "^6.2.1-beta.2",
+    "@dune-network/local-forging": "^6.2.1-beta.2",
+    "@dune-network/remote-signer": "^6.2.1-beta.2",
+    "@dune-network/signer": "^6.2.1-beta.2",
+    "@dune-network/taquito": "^6.2.1-beta.2",
+    "@dune-network/utils": "^6.2.1-beta.2"
   },
   "private": true,
   "jest": {
